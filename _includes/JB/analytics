@@ -11,6 +11,8 @@
   {% include JB/analytics-providers/google-universal %}
 {% when "getclicky" %}
   {% include JB/analytics-providers/getclicky %}
+{% when "baidu" %}
+  {% include JB/analytics-providers/baidu %}
 {% when "mixpanel" %}
   {% include JB/analytics-providers/mixpanel %}
 {% when "piwik" %}
