@@ -1,6 +1,8 @@
+{% if page.title or page.tagline %}
 <div class="page-header">
-    {% if page.title or page.tagline %}<h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>{% endif %}
+    <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
 </div>
+{% endif %}
 
 <div class="row-fluid post-full">
   <div class="span12">
