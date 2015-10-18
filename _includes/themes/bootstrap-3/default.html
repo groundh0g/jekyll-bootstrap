@@ -81,6 +81,19 @@
         {{ content }}
       </div>
 
+        {% comment %}
+        <!-- EXAMPLE: Tag Cloud Usage -->
+        <div class="cloud-container">
+            <h2 class='title'>Tag Cloud</h2>
+            <!-- start tag cloud -->
+            <div>
+                {% include JB/tag_cloud %}
+            </div>
+            <!-- end tag cloud -->
+            <div class='clear'></div>
+        </div>
+        {% endcomment %}
+
     </div>
 
     <div id="footer">
